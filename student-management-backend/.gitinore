@@ -1,0 +1,12 @@
+# Bỏ qua tất cả các thư mục node_modules ở bất kỳ dự án con nào
+**/node_modules/
+
+# Bỏ qua tất cả các file cấu hình môi trường .env chứa mật khẩu/bảo mật
+**/.env
+
+# Bỏ qua các file log hệ thống sinh ra khi chạy lỗi
+*.log
+npm-debug.log*
+
+# Bỏ qua các thư mục cấu hình ẩn của VS Code (nếu có)
+.vscode/
